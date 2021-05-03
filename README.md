@@ -11,3 +11,8 @@ For retrieval purposes an array is given that represents an image. Then you will
 1. know its label if it was previously inserted.<br>
 2. add it to the hash table. <br>
 3. remove it from the hash table.<br>
+<img width="777" alt="Screen Shot 2021-05-03 at 3 05 32 AM" src="https://user-images.githubusercontent.com/38399357/116834004-81835000-abbc-11eb-8e13-2ec96d2c3bbd.png">
+
+## Application
+A text file is provided containing the images (in the form of a vector with the last element in the vector being the image ID) to be put in the hash table. Hash collision issues are solved using both linear probing and separate chaining. With a given image check in the hash table if it is present or not,if it is present then the ID retrieved is returned to check if your retrieval was correct or not.
+Data set is from the THE MNIST DATABASE of handwritten digits.
